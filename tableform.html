@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Table-Form</title>
+    </head>
+    <body>
+        <h1>Event Schedule</h1>
+        <table border="1">
+            <tr>
+                <th>Event Name</th>
+                <th>Time</th>
+                <th>Location</th>
+            </tr>
+            <tr>
+                <td>Pragnya</td>
+                <td>9:00 AM</td>
+                <td>Gachibowli</td>
+            </tr>
+            <tr>
+                <td>Rangde</td>
+                <td>10:00 AM</td>
+                <td>Madhapur</td>
+            </tr>
+            <tr>
+                <td>CodeEstate</td>
+                <td>11:00 AM</td>
+                <td>Mindspace</td>
+            </tr>
+            <tr>
+                <td>Ruedo</td>
+                <td>12:00 AM</td>
+                <td>Secunderabad</td>
+            </tr>
+            <tr>
+                <td>Rythms</td>
+                <td>6:00 PM</td>
+                <td>Banjarahills</td>
+            </tr>
+        </table>
+        <h1> Registration Form</h1>
+        <form>
+            <label for="name">Name:</label> <br/>
+            <input type="text" id="name"/><br/>
+
+            <label for="email">Email:</label><br/>
+            <input type="email" id="email"/><br/>
+        
+            <label for="dep">Department:</label><br/>
+            <input type="radio" id="it" name="Department" value="it">
+            <label for="it">IT</label><br/>
+            <input type="radio" id="cse" name="Department" value="cse">
+            <label for="cse">CSE</label><br/>
+
+            <label for="ev">Select events you wanna participate:</label><br/>
+            <input type="checkbox" id="pr" name="pragnya" value="pragnya">
+            <label for="pr">PRAGNYA</label><br/>
+            <input type="checkbox" id="ra" name="rangde" value="rangde">
+            <label for="pr">RANGDE</label><br/>
+            <input type="checkbox" id="ce" name="code" value="code">
+            <label for="pr">CODE ESTATE</label><br/>
+            <input type="checkbox" id="ru" name="ruedo" value="ruedo">
+            <label for="pr">RUEDO</label><br/>
+            <input type="checkbox" id="ry" name="rythms" value="rythms">
+            <label for="ry">RYTHMS</label>
+        </form>
+    </body>
+</html>
