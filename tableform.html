@@ -1,75 +1,78 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Table-Form</title>
-    </head>
-    <body>
-        <h1>Event Schedule</h1>
-        <table border="1">
-            <tr>
-                <th>Event Name</th>
-                <th>Time</th>
-                <th>Location</th>
-            </tr>
-            <tr>
-                <td>Pragnya</td>
-                <td>9:00 AM</td>
-                <td>Gachibowli</td>
-            </tr>
-            <tr>
-                <td>Rangde</td>
-                <td>10:00 AM</td>
-                <td>Madhapur</td>
-            </tr>
-            <tr>
-                <td>CodeEstate</td>
-                <td>11:00 AM</td>
-                <td>Mindspace</td>
-            </tr>
-            <tr>
-                <td>Ruedo</td>
-                <td>12:00 AM</td>
-                <td>Secunderabad</td>
-            </tr>
-            <tr>
-                <td>Rythms</td>
-                <td>6:00 PM</td>
-                <td>Banjarahills</td>
-            </tr>
-        </table>
-        <h1> Registration Form</h1>
-        <form>
-            <label for="name">Name:</label> <br/>
-            <input type="text" id="name"/><br/>
 
-            <label for="email">Email:</label><br/>
-            <input type="email" id="email"/><br/>
-        
-            <label for="dep">Department:</label><br/>
-            <input type="radio" id="it" name="Department" value="it">
-            <label for="it">IT</label><br/>
-            <input type="radio" id="cse" name="Department" value="cse">
-            <label for="cse">CSE</label><br/>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table-Form</title>
+</head>
 
-            <p>Select events you wanna participate:</p><br/>
+<body>
+    <h1>Event Schedule</h1>
+    <table border="1">
+        <tr>
+            <th>Event Name</th>
+            <th>Time</th>
+            <th>Location</th>
+        </tr>
+        <tr>
+            <td>Pragnya</td>
+            <td>9:00 AM</td>
+            <td>Gachibowli</td>
+        </tr>
+        <tr>
+            <td>Rangde</td>
+            <td>10:00 AM</td>
+            <td>Madhapur</td>
+        </tr>
+        <tr>
+            <td>CodeEstate</td>
+            <td>11:00 AM</td>
+            <td>Mindspace</td>
+        </tr>
+        <tr>
+            <td>Ruedo</td>
+            <td>12:00 AM</td>
+            <td>Secunderabad</td>
+        </tr>
+        <tr>
+            <td>Rythms</td>
+            <td>6:00 PM</td>
+            <td>Banjarahills</td>
+        </tr>
+    </table>
+    <h1> Registration Form</h1>
+    <form>
+        <label for="name">Name:</label> <br />
+        <input type="text" id="name" /><br />
 
-            <input type="checkbox" id="pr" name="events[]" value="pragnya">
-            <label for="pr">PRAGNYA</label><br/>
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" /><br />
 
-            <input type="checkbox" id="ra" name="events[]" value="rangde">
-            <label for="ra">RANGDE</label><br/>
+        <label for="dep">Department:</label><br />
+        <input type="radio" id="it" name="Department" value="it">
+        <label for="it">IT</label><br />
+        <input type="radio" id="cse" name="Department" value="cse">
+        <label for="cse">CSE</label><br />
 
-            <input type="checkbox" id="ce" name="events[]" value="code">
-            <label for="ce">CODE ESTATE</label><br/>
+        <p>Select events you wanna participate:</p><br />
 
-            <input type="checkbox" id="ru" name="events[]" value="ruedo">
-            <label for="ru">RUEDO</label><br/>
+        <input type="checkbox" id="pr" name="events[]" value="pragnya">
+        <label for="pr">PRAGNYA</label><br />
 
-            <input type="checkbox" id="ry" name="events[]" value="rythms">
-            <label for="ry">RYTHMS</label>
+        <input type="checkbox" id="ra" name="events[]" value="rangde">
+        <label for="ra">RANGDE</label><br />
 
-        </form>
-    </body>
+        <input type="checkbox" id="ce" name="events[]" value="code">
+        <label for="ce">CODE ESTATE</label><br />
+
+        <input type="checkbox" id="ru" name="events[]" value="ruedo">
+        <label for="ru">RUEDO</label><br />
+
+        <input type="checkbox" id="ry" name="events[]" value="rythms">
+        <label for="ry">RYTHMS</label>
+
+    </form>
+</body>
+
 </html>
